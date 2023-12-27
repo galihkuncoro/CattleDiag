@@ -15,7 +15,7 @@ Created and developed by the Machine Learning Cohort of Google Bangkit 2023, wit
 Bangkit ID  | Full Name                       |                
 ----------- | ------------------------------- |               
 M248BSY1167 | Galih Kuncoro Jati  | 
-M040DSY0555 |                     |
+            |                     |
        |
 
 ## Related Link to Our Project
@@ -23,8 +23,8 @@ M040DSY0555 |                     |
 
 
 # Overall Development Flow 
-1. [Data Understanding](#Data Understanding)  
-2  [Data Preparation](#Data Preparation)    
+1. [Data_Understanding](#Data Understanding)  
+2. [Data_Preparation](#Data Preparation)    
 3. [Modeling](#Modeling)  
 
 # Further Explanation
