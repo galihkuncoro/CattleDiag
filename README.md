@@ -16,7 +16,7 @@ Bangkit ID  | Full Name                       |
 ----------- | ------------------------------- |               
 M248BSY1167 | Galih Kuncoro Jati  | 
             |                     |
-       |
+
 
 ## Related Link to Our Project
 1. [Project Brief](https://docs.google.com/document/d/1PMCEKqtCIhXkZkfvbOby7mso87_mXo0LEJmka7PsVAE/edit?usp=sharing)
@@ -28,10 +28,10 @@ M248BSY1167 | Galih Kuncoro Jati  |
 3. [Modeling](#Modeling)  
 
 # Further Explanation
-## Data Understanding
+## Data_Understanding
 Dataset CattleDiag merupakan kumpulan data untuk memberikan sumber untuk membuat sistem terkait perawatan kesehatan hewan ternak. Ada kolom yang berisi penyakit, gejalanya, pengobatan, tindakan pencegahan, dan bobotnya.
 
-## Data Preparation
+## Data_Preparation
 ### Handling Null / missing values
 ### Filling symptom data with their respective weights
 ### Dealing with incorrectly written symptom data
