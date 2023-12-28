@@ -48,12 +48,22 @@ Nama File Dataset   | Deskripsi               |  Jumlah Data                    
 - TensorFlow and Keras: For building and training Neural Network models.
 ### Handling Null / missing values
 Filling Null or missing values with the number 0 can be achieved using the fillna(value=0) function. However, the dataframe needs to be reshaped beforehand.
-
-**missing values**:
     ```
     df = pd.DataFrame(s, columns = df.columns)
     df = df.fillna(value=0)
     ``` 
+
+### Run the Streamlit App
+
+1. **Navigate to the Project Directory** where `dashboard.py` is located.
+
+2. **Run the Streamlit App**:
+    ```
+    streamlit run dashboard.py
+    ``` 
+
+
+
 ### Filling symptom data with their respective weights
 ### Dealing with incorrectly written symptom data
 ### Dividing the dataset into evaluation data, training data, and testing data.
