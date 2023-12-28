@@ -30,6 +30,12 @@ M248BSY1167 | Galih Kuncoro Jati  |
 # Further Explanation
 ## Data_Understanding
 Dataset CattleDiag merupakan kumpulan data untuk memberikan sumber untuk membuat sistem terkait perawatan kesehatan hewan ternak. Ada kolom yang berisi penyakit, gejalanya, pengobatan, tindakan pencegahan, dan bobotnya.
+Nama File Dataset   | Deskripsi               |  Jumlah Data                      |              
+-----------         | ------------------------|   ------------------------------- |             
+ dataset.csv        | Berisi data penyakit dan gejalanya | 4467                       |
+ Symptom-severity.csv        |  Bersis data gejala dan bobot/tingkat keparahannya | 148 |
+ Symptom_precaution.csv      |  Berisi data penyakit dan pencegahannya             | 33 |
+
 
 ## Data_Preparation
 ### Handling Null / missing values
