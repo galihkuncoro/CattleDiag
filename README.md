@@ -33,11 +33,19 @@ Dataset CattleDiag merupakan kumpulan data untuk memberikan sumber untuk membuat
 Nama File Dataset   | Deskripsi               |  Jumlah Data                      |              
 -----------         | ------------------------|   ------------------------------- |             
  dataset.csv        | Berisi data penyakit dan gejalanya | 4467                       |
- Symptom-severity.csv        |  Bersis data gejala dan bobot/tingkat keparahannya | 148 |
+ Symptom-severity.csv        |  Berisi data gejala dan bobot/tingkat keparahannya | 148 |
  Symptom_precaution.csv      |  Berisi data penyakit dan pencegahannya             | 33 |
 
 
 ## Data_Preparation
+### Libraries Used
+- Pandas: For data manipulation and analysis in DataFrame format.
+- NumPy: For scientific computation, especially in array manipulation and mathematical operations on arrays.
+- Scikit-learn: For machine learning tasks like building models, data splitting, and model evaluation.
+- Matplotlib: For creating visualizations such as plots and graphs.
+- Seaborn: For more visually appealing data visualizations.
+- Joblib: For saving (serializing) models and objects into files for reuse.
+- TensorFlow and Keras: For building and training Neural Network models.
 ### Handling Null / missing values
 ### Filling symptom data with their respective weights
 ### Dealing with incorrectly written symptom data
