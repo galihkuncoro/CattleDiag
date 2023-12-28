@@ -47,6 +47,11 @@ Nama File Dataset   | Deskripsi               |  Jumlah Data                    
 - Joblib: For saving (serializing) models and objects into files for reuse.
 - TensorFlow and Keras: For building and training Neural Network models.
 ### Handling Null / missing values
+Filling Null or missing values with the number 0 can be achieved using the fillna(value=0) function. However, the dataframe needs to be reshaped beforehand.
+    ```
+    df = pd.DataFrame(s, columns = df.columns)
+    df = df.fillna(value=0)
+    ``` 
 ### Filling symptom data with their respective weights
 ### Dealing with incorrectly written symptom data
 ### Dividing the dataset into evaluation data, training data, and testing data.
