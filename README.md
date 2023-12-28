@@ -50,6 +50,7 @@ Nama File Dataset   | Deskripsi               |  Jumlah Data                    
 
 ### Handling Null / missing values
 Filling Null or missing values with the number 0 can be achieved using the fillna(value=0) function. However, the dataframe needs to be reshaped beforehand.
+
     ```
     df = pd.DataFrame(s, columns = df.columns)
     df = df.fillna(value=0)
@@ -57,6 +58,7 @@ Filling Null or missing values with the number 0 can be achieved using the filln
 
 ### Filling symptom data with their respective weights
 Filling symptoms with their corresponding severity weights can be accomplished by assigning each symptom its respective severity value.
+
     ```
 vals = df.values
 symptoms = weight['Gejala'].unique()
