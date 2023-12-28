@@ -50,9 +50,7 @@ Nama File Dataset   | Deskripsi               |  Jumlah Data                    
 
 ### Handling Null / missing values
 Filling Null or missing values with the number 0 can be achieved using the fillna(value=0) function. However, the dataframe needs to be reshaped beforehand.
-1. **Navigate to the Project Directory** where `dashboard.py` is located.
 
-2. **Run the Streamlit App**:
     ```
     df = pd.DataFrame(s, columns = df.columns)
     df = df.fillna(value=0)
